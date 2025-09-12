@@ -16,7 +16,8 @@ header {
     border-radius: 20px;
     padding: 10px 20px;
     transition: all 0.3s ease;
-    border: none;
+    color: #fff;
+    text-decoration: none;
 }
 .btn-contact:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -58,4 +59,104 @@ header {
 }
 .im h2{
     margin-top: 200px;
+}
+/* Services Section */
+.services-section {
+  background-color: #fff;
+}
+
+.section-label {
+  color: #6c757d;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+/* Left side list */
+.service-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.service-list li {
+  margin-bottom: 1rem;
+}
+
+.service-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #6c757d;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.service-link:hover {
+  color: #000;
+}
+
+.service-link.active {
+  color: #000;
+  font-weight: 700;
+  position: relative;
+}
+
+.service-link.active::before {
+  content: "•";
+  color: #000;
+  font-size: 1.5rem;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Right side cards */
+.service-card {
+  background-color: #faf7f2;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Why we exist */
+.waa{
+    background-color:#228B22 ;
+    color: #fff;
+    padding: 50px;
+}
+.pwaa{
+    margin-top: 150px;
+    padding: 20px;
+}
+.ph{
+    width: 800px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left: 370px;
+}
+@media screen and (max-width: 780px) {
+    .ph{
+        margin-left:0px ;
+        width: 400px;
+        height: 200px;
+    }
+    .pwaa{
+        margin-top: 0px;
+    }
+}
+/* Contact Section */
+.link{
+    color: #000;
+}
+.link:hover{
+    color: #228B22;
+}
+/* Structure Section */
+.strp{
+    color: #228B22;
 }

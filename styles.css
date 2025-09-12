@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: url('/assets/TQQcqDEnnSrx3d0ffCazkalsmWo - Copy.webp') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-contact {
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border: none;
+}
+.btn-contact:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+.hero {
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+.display-3 {
+    font-weight: 700;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+.lead {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+.btn-lg {
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 500;
+}
+.btn-lg:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+.im{
+    background: url(/assets/l1hllC5Hd1W0sfboPXj8lvsd5iY\ -\ Copy.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.im h2{
+    margin-top: 200px;
+}

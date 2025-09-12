@@ -12,14 +12,14 @@ header {
     overflow: hidden;
 }
 
-.btn-contact {
+.btn {
     border-radius: 20px;
     padding: 10px 20px;
     transition: all 0.3s ease;
     color: #fff;
     text-decoration: none;
 }
-.btn-contact:hover {
+.btn:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
@@ -44,6 +44,8 @@ header {
     border-radius: 25px;
     padding: 12px 30px;
     font-weight: 500;
+    color: #fff;
+    text-decoration: none;
 }
 .btn-lg:hover {
     background-color: #f8f9fa;
@@ -105,7 +107,6 @@ header {
 }
 
 .service-link.active::before {
-  content: "•";
   color: #000;
   font-size: 1.5rem;
   position: absolute;
@@ -139,11 +140,23 @@ header {
     border-radius: 25px;
     margin-left: 370px;
 }
+.phar{
+    width: 800px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 370px;
+}
 @media screen and (max-width: 780px) {
     .ph{
         margin-left:0px ;
         width: 400px;
         height: 200px;
+    }
+    .phar{
+        margin-right:0px ;
+        width: 400px;
+        height: 200px;        
     }
     .pwaa{
         margin-top: 0px;
@@ -159,4 +172,8 @@ header {
 /* Structure Section */
 .strp{
     color: #228B22;
+}
+/* footer */
+.foot{
+    transform: rotate(180deg) ;
 }

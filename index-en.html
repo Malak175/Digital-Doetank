@@ -12,14 +12,18 @@
         <nav class="navbar navbar-expand-lg ">
             <div class="container">
                 <h3 class="navbar-brand text-white">Digital Doetank</h3>
-                <a href="#contact" class="btn-contact">Contact</a>
+                <div>
+                  <a href="#contact" class="btn">Contact</a>
+                  <!-- Language Toggle Button -->
+                  <button id="langSwitch" class="btn ms-auto">العربية</button>
+                </div>
             </div>
         </nav>
         <section class="hero text-center">
             <div class="container">
                 <h1 class="display-3 text-white">Guide to Digital Autonomy</h1>
                 <p class="lead mt-3 text-white">Helping organizations grow through technology, strategy, and creativity.</p>
-                <a href="#cta" class="btn btn-light btn-lg mt-4">Get in Touch</a>
+                <a href="#cta" class=" btn-light btn-lg mt-4">Get in Touch</a>
             </div>
         </section>
     </header>
@@ -218,6 +222,11 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script>
+       document.getElementById("langSwitch").addEventListener("click", () => {
+       window.location.href = "index-ar.html"; // go to Arabic page
+      });
+    </script>
+
 </body>
 </html>
